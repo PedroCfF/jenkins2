@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Packaging stage') { 
             steps {
-                bat mvn 'package'
+                bat 'mvn package'
             }
         }
     }
